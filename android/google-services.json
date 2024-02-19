@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "414296909049",
+    "project_id": "asmreact-5b7ac",
+    "storage_bucket": "asmreact-5b7ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:414296909049:android:b93901e3cf4fd5c5c8ae28",
+        "android_client_info": {
+          "package_name": "com.assignment1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOXuKZ0QF6aCHx6PQFyCdr4A2QYIGzzmI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
