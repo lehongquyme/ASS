@@ -30,7 +30,7 @@ const Register = ({ navigation }: any) => {
                     }
                 });
 
-                if (response.status === 200) {
+                if (response.ok) {
                     setIsSuccessModalVisible(true);
                     setTimeout(() => {
                         setIsSuccessModalVisible(false);

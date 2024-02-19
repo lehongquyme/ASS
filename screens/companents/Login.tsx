@@ -4,7 +4,7 @@ import { Alert, Button, Image, StyleSheet, Text, TextInput, TouchableOpacity, Vi
 import axios from 'axios';
 
 const Login = ({ navigation }: any) => {
- 
+
     const [nhapEmail, setEmail] = useState('')
     const [nhapPass, setPass] = useState('')
 
@@ -18,7 +18,7 @@ const Login = ({ navigation }: any) => {
                 .then((res) => { return res.json() })
                 .then(async (res_login) => {
                     if (res_login.length != 1) {
-                       Alert.alert("Tài khoản hoặc mật khẩu không đúng!")                        
+                        Alert.alert("Tài khoản hoặc mật khẩu không đúng!")
                         return
                     } else {
                         let objU = res_login[0]

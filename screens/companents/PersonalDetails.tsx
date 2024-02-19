@@ -18,7 +18,7 @@ const PersonalDetails = ({ navigation }: any) => {
                     const response = await axios.get('https://63da002919fffcd620bef32a.mockapi.io/user', { params: { email, password } });
                     const filteredUsers = response.data.filter((user: any) => user.email === email && user.password === password);
                     if (filteredUsers.length > 0) {
-                        const userDetails:any = filteredUsers[0];
+                        const userDetails: any = filteredUsers[0];
                         setUserDetails(userDetails);
                         setName(userDetails.name);
                         setAddress(userDetails.address);
